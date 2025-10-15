@@ -29,6 +29,15 @@ public class Utils {
         }
     }
 
+    public static void createFile(String fileName) throws IOException {
+        File file = null;
+        if (fileName == null){
+            file = new File(fileName);
+        } else {
+            file = new File(fileName);
+        }
+    }
+
     public static void deleteFile(String fileName) throws IOException {
         File file = new File(fileName);
         FileUtils.forceDelete(file);
