@@ -1,4 +1,5 @@
 {
-    "sonarQubeUri": "http://localhost:9000",
-    "projectKey": "timothe_demo-java-security_dcba2057-4065-46aa-9969-e86acac1c86a"
+    "sonarCloudOrganization": "sonarcloud-demos",
+    "projectKey": "SonarCloud-Demos_demo-java-security",
+    "region": "EU"
 }
